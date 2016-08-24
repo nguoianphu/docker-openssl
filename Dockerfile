@@ -2,6 +2,7 @@
 
 ### I like CentOS
 FROM centos:latest
+## CentOS 7
 
 MAINTAINER nguoianphu@gmail.com
 
@@ -30,4 +31,6 @@ RUN yum clean all \
  && make install \
  && cd .. \
  && rm -rf openssl-${OPENSSL_VERSION}
+ 
+ ENV PATH /usr/local/ssl/bin:$PATH
  
