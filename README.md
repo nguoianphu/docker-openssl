@@ -14,9 +14,9 @@
 
 ## Build and run
 
-   docker build -t "openssl" .
-   docker run --rm -it openssl openssl version
+    docker build -t "openssl" .
+    docker run --rm -it openssl openssl version
 
 or
    
-   docker run --rm -it nguoianphu/docker-openssl openssl version
+    docker run --rm -it nguoianphu/docker-openssl openssl version
