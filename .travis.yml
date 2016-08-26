@@ -5,4 +5,4 @@ services:
 script:
   - docker build -t openssl .
   - docker run -it openssl openssl -version
-  - docker run -it nguoianphu/openssl openssl -version
+  - docker run -it nguoianphu/docker-openssl openssl -version
