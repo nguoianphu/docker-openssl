@@ -2,7 +2,7 @@
 
 ### Using the Docker.io Cloud machine
 
-[![Build Status](https://travis-ci.org/nguoianphu/docker-openssl.svg?branch=master)](https://travis-ci.org/nguoianphu/docker-openssl [![](https://images.microbadger.com/badges/image/nguoianphu/docker-openssl.svg)](http://microbadger.com/images/nguoianphu/docker-openssl "Get your own image badge on microbadger.com")
+[![Build Status](https://travis-ci.org/nguoianphu/docker-openssl.svg?branch=master)](https://travis-ci.org/nguoianphu/docker-openssl) [![](https://images.microbadger.com/badges/image/nguoianphu/docker-openssl.svg)](http://microbadger.com/images/nguoianphu/docker-openssl "Get your own image badge on microbadger.com")
 
 ### It's really awesome!
 
