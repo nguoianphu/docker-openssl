@@ -15,6 +15,7 @@ MAINTAINER Tuan Vo <vohungtuan@gmail.com>
 RUN set -x \
     && apk add --no-cache \
         bash \
+		wget \
         gcc \
         tar \
         alpine-sdk \
