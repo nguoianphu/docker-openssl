@@ -34,7 +34,7 @@ ENV OPENSSL_VERSION="1.0.2j"
 
 RUN set -x \
  ### BUILD OpenSSL
- && wget wget --no-check-certificate -O /tmp/openssl-${OPENSSL_VERSION}.tar.gz "https://www.openssl.org/source/openssl-${OPENSSL_VERSION}.tar.gz" \
+ && wget --no-check-certificate -O /tmp/openssl-${OPENSSL_VERSION}.tar.gz "https://www.openssl.org/source/openssl-${OPENSSL_VERSION}.tar.gz" \
  && tar -xvf /tmp/openssl-${OPENSSL_VERSION}.tar.gz -C /tmp/ \
  && rm -rf /tmp/openssl-${OPENSSL_VERSION}.tar.gz \ 
  && cd /tmp/openssl-${OPENSSL_VERSION} \
